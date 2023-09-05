@@ -1,0 +1,5 @@
+{
+    "string_property": "string",
+    "array_property": [1,2,3],
+    "object_property": {"key": "value"}
+}

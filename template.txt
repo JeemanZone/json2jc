@@ -1,0 +1,6 @@
+@Data
+public class {{.Name}} {
+    {{- range $property,$type := .Properties }}
+    private {{$type}} {{$property}};    
+    {{- end }}
+}
