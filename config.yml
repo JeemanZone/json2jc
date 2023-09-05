@@ -1,7 +1,8 @@
 # 配置范例（全为默认值）
 #json-file: sample.json
 #default-type: String
-#class-name: MyClass
+#root-class-name: MyClass
 #file-output-flag: false
 #pause-flag: true
 #template-file: template.txt
+#file-output-directory: output

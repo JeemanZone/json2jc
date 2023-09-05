@@ -1,2 +1,4 @@
-json
-temp
+json/
+temp/
+output/
+.vscode/
