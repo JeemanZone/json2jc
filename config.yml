@@ -1,19 +1,7 @@
-#配置项说明：
-#json-file JSON文件名，本程序将会读取该文件所包含JSON字符串的一级字段之后根据模板文件生成新文本。默认为sample.json。
-#default-type 默认类型，若读取到的JSON类型无法被识别为【string】【float64】【bool】【[]interface {}】【map[string]interface {}】等GO类型的任意一种，则会以该配置值作为模板中.Properties集合元素的值（value）。默认为String。
-#class-name 模板中.Name的值。默认为MyClass。
-#pause-flag 决定是否在程序运行结束时暂停并等待用户输入回车键。默认为true。
-
 # 配置范例（全为默认值）
-#json-file: json/sample.json
+#json-file: sample.json
 #default-type: String
 #class-name: MyClass
 #file-output-flag: false
 #pause-flag: true
 #template-file: template.txt
-
-pause-flag: false
-json-file: json/sample.json
-file-output-flag: true
-class-name: SampleClass
-#template-file: test.txt
